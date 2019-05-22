@@ -35,7 +35,5 @@ WebUI.waitForElementPresent(findTestObject('Day2/Page_OrangeHRM/a_Logout'), 5)
 
 WebUI.click(findTestObject('Object Repository/Day2/Page_OrangeHRM/a_Logout'))
 
-WebUI.click(findTestObject('Day2/Page_OrangeHRM/b_Dashboard'))
-
 WebUI.closeBrowser()
 
