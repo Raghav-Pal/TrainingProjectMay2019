@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="12" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="12" timestamp="2019-05-21 19:34:19" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/Day2/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProject\\Reports\\Day2\\TestSuite1\\20190521_193416"/>
+            <property name="logFiles" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProject\\Reports\\Day2\\TestSuite1\\20190521_193416\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+            <property name="os" value="Windows Server 2016 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Firefox 66.0"/>
+            <property name="hostAddress" value="172.20.128.1"/>
+            <property name="sessionId" value="d8ac80e6-0ec6-49ab-adc5-d6980ab71a49"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows Server 2016"/>
+        </properties>
+        <testcase name="Test Cases/Day2/Test2" classname="Test Cases/Day2/Test2" status="PASSED">
+            <system-out>2019-05-21 19:34:20 - [TEST_CASE][PASSED] - Test Cases/Day2/Test2: Test Cases/Day2/Test2&#xD;
+&#xD;
+2019-05-21 19:34:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-05-21 19:34:20 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-05-21 19:34:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-05-21 19:34:28 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-05-21 19:34:28 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully&#xD;
+&#xD;
+2019-05-21 19:34:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully&#xD;
+&#xD;
+2019-05-21 19:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Day2/Page_OrangeHRM/span_Username' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/span_Username' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day2/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), USERNAME): Text 'Admin' is set on object 'Object Repository/Day2/Page_OrangeHRM/input_LOGIN Panel_txtUsername'&#xD;
+&#xD;
+2019-05-21 19:34:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Day2/Page_OrangeHRM/input_LOGIN Panel_txtUsername'&#xD;
+&#xD;
+2019-05-21 19:34:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Day2/Page_OrangeHRM/input_Username_txtPassword"), PASSWORD): Text ****** has been set on object 'Object Repository/Day2/Page_OrangeHRM/input_Username_txtPassword'&#xD;
+&#xD;
+2019-05-21 19:34:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Day2/Page_OrangeHRM/input_Username_txtPassword'&#xD;
+&#xD;
+2019-05-21 19:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Day2/Page_OrangeHRM/input_Password_Submit' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/input_Password_Submit' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/b_Recruitment")): Object: 'Object Repository/Day2/Page_OrangeHRM/b_Recruitment' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/b_Recruitment' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/b_Dashboard")): Object: 'Object Repository/Day2/Page_OrangeHRM/b_Dashboard' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/b_Dashboard' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/a_Welcome Admin")): Object: 'Object Repository/Day2/Page_OrangeHRM/a_Welcome Admin' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/a_Welcome Admin' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Day2/Page_OrangeHRM/a_Logout"), 5): Object 'Object Repository/Day2/Page_OrangeHRM/a_Logout' is present&#xD;
+&#xD;
+2019-05-21 19:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Day2/Page_OrangeHRM/a_Logout' is present&#xD;
+&#xD;
+2019-05-21 19:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day2/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Day2/Page_OrangeHRM/a_Logout' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Day2/Page_OrangeHRM/a_Logout' is clicked on&#xD;
+&#xD;
+2019-05-21 19:34:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-05-21 19:34:32 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-21 19:34:19 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-05-21 19:34:19 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

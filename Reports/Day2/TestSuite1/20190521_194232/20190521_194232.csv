@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 74.0.3729.157,,,2019-05-21 19:42:34,2019-05-21 19:43:04,29.352s,INCOMPLETE
+,,,,,,,
+Test Cases/Day2/Test2,Chrome 74.0.3729.157,,,2019-05-21 19:42:35,2019-05-21 19:43:04,29.079s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,2019-05-21 19:42:35,2019-05-21 19:42:39,3.824s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.157,,,2019-05-21 19:42:39,2019-05-21 19:42:40,1.012s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/span_Username""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:40,2019-05-21 19:42:40,0.202s,PASSED
+"setText(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), USERNAME)",Chrome 74.0.3729.157,,,2019-05-21 19:42:40,2019-05-21 19:42:40,0.170s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_Username_txtPassword""), PASSWORD)",Chrome 74.0.3729.157,,,2019-05-21 19:42:40,2019-05-21 19:42:40,0.262s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_Password_Submit""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:40,2019-05-21 19:42:41,0.711s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/b_Recruitment""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:41,2019-05-21 19:42:42,0.654s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/b_Dashboard""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:42,2019-05-21 19:42:42,0.277s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/a_Welcome Admin""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:42,2019-05-21 19:42:42,0.259s,PASSED
+"waitForElementPresent(findTestObject(""Day2/Page_OrangeHRM/a_Logout""), 5)",Chrome 74.0.3729.157,,,2019-05-21 19:42:42,2019-05-21 19:42:42,0.054s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/a_Logout""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:42,2019-05-21 19:42:43,0.277s,PASSED
+"click(findTestObject(""Day2/Page_OrangeHRM/b_Dashboard""))",Chrome 74.0.3729.157,,,2019-05-21 19:42:43,2019-05-21 19:43:04,21.052s,FAILED

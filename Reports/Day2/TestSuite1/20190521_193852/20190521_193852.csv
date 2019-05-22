@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 74.0.3729.157,,,2019-05-21 19:38:55,2019-05-21 19:39:10,14.878s,INCOMPLETE
+,,,,,,,
+Test Cases/Day2/Test2,Chrome 74.0.3729.157,,,2019-05-21 19:38:56,2019-05-21 19:39:10,14.611s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,2019-05-21 19:38:56,2019-05-21 19:39:01,4.602s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.157,,,2019-05-21 19:39:01,2019-05-21 19:39:02,1.457s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/span_Username""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:02,2019-05-21 19:39:03,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), USERNAME)",Chrome 74.0.3729.157,,,2019-05-21 19:39:03,2019-05-21 19:39:03,0.278s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_Username_txtPassword""), PASSWORD)",Chrome 74.0.3729.157,,,2019-05-21 19:39:03,2019-05-21 19:39:04,1.130s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/input_Password_Submit""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:04,2019-05-21 19:39:05,1.182s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/b_Recruitment""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:05,2019-05-21 19:39:06,0.857s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/b_Dashboard""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:06,2019-05-21 19:39:07,0.419s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/a_Welcome Admin""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:07,2019-05-21 19:39:07,0.319s,PASSED
+"waitForElementPresent(findTestObject(""Day2/Page_OrangeHRM/a_Logout""), 5)",Chrome 74.0.3729.157,,,2019-05-21 19:39:07,2019-05-21 19:39:07,0.072s,PASSED
+"click(findTestObject(""Object Repository/Day2/Page_OrangeHRM/a_Logout""))",Chrome 74.0.3729.157,,,2019-05-21 19:39:07,2019-05-21 19:39:07,0.365s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,2019-05-21 19:39:07,2019-05-21 19:39:08,0.765s,PASSED

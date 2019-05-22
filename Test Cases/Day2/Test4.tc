@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11b2a76d-11fa-4418-a134-060d36646fe4</testCaseGuid>
+   <variable>
+      <defaultValue>'Katalon'</defaultValue>
+      <description></description>
+      <id>55b92bee-16a8-4b7b-8969-2371ed27d465</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>b2d03032-2771-42d5-904d-204c2aefe51a</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>952e39b3-4458-47b2-ade1-a93c579f1f2b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
